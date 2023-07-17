@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://resources/font.tres" type="DynamicFont" id=1]
+
+[node name="Size" type="Node2D"]
+
+[node name="TestLabel" type="Label" parent="."]
+margin_left = -64.0
+margin_top = -8.0
+margin_right = 64.0
+margin_bottom = 6.0
+custom_fonts/font = ExtResource( 1 )
+text = "press any key to start"
+align = 1
